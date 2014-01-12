@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="StatEditStyle" parent="@android:style/Widget.EditText">
+        <item name="android:textSize">10sp</item>
+        <item name="android:inputType">number</item>
+    </style>
+
+</resources>
