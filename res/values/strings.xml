@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ctharacter</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_occupations">Occupations</string>
+    <string name="action_rules">Rules</string>
+    <string name="action_about">About</string>
+    <string name="initial_stat">0</string>
+    <string name="thd_stat">3D6</string>
+    <string name="twd_stat">2D6+6</string>
+    
+    <string name="char_label">Characteristics:</string>
+    <string name="roll_label">Rolls:</string>
+    <string name="money_label">$</string>
+    <string name="label_1890">1890s</string>
+    <string name="label_1920">1920s</string>
+    <string name="label_present">Present</string>
+    <string name="occ_pts">Occ Points</string>
+    <string name="hob_pts">Hobby Points</string>
+    <string name="occ_pts_short">Occupational</string>
+    <string name="hob_pts_short">Hobby</string>
+    <string name="str_stat">STR</string>
+    <string name="dex_stat">DEX</string>
+    <string name="int_stat">INT</string>
+    <string name="idea_stat">Idea</string>
+    <string name="con_stat">CON</string>
+    <string name="app_stat">APP</string>
+    <string name="pow_stat">POW</string>
+    <string name="luck_stat">Luck</string>
+    <string name="siz_stat">SIZ</string>
+    <string name="san_stat">SAN</string>
+    <string name="edu_stat">EDU</string>
+    <string name="know_stat">Know</string>
+    <string name="myth_stat">99-M</string>
+    <string name="dam_stat">DAM</string>
+    <string name="mp_stat">MP</string>
+    <string name="hp_stat">HP</string>
+    
+    <string name="roll">Roll</string>
+    <string name="clear">Clear</string>
+    <string-array name="year_choices">
+        <item >1890s</item>
+        <item >1920s</item>
+        <item >Present</item>
+    </string-array>
+    
+    <string name="hints_preference">Stat Box Hints</string>
+    <string name="hints_summary_on">Hints are always displayed</string>
+    <string name="hints_summary_off">Hints are only displayed on drag</string>
+    
+    <string name="auto_preference">Auto-Assign Values</string>
+    <string name="auto_summary_on">Dice values are automatically assigned</string>
+    <string name="auto_summary_off">Dice values are placed for you to choose</string>
+    
+    <string name="cancel">Cancel</string>
+    <string name="review">Leave Review</string>
+    
+    <string name="occ_ant">Antiquarian</string>
+    <string name="occ_art">Artist</string>
+    <string name="occ_ath">Athlete</string>
+    <string name="occ_aut">Author</string>
+    <string name="occ_cle">Clergy</string>
+    <string name="occ_cri">Criminal</string>
+    <string name="occ_dil">Dilettante</string>
+    <string name="occ_doc">Doctor</string>
+    <string name="occ_dri">Drifter</string>
+    <string name="occ_eng">Engineer</string>
+    <string name="occ_ent">Entertainer</string>
+    <string name="occ_far">Farmer/Forester</string>
+    <string name="occ_jou">Journalist</string>
+    <string name="occ_law">Lawyer</string>
+    <string name="occ_mil">Military Officer</string>
+    <string name="occ_mis">Missionary</string>
+    <string name="occ_mus">Musician</string>
+    <string name="occ_par">Parapsychologist</string>
+    <string name="occ_pil">Pilot</string>
+    <string name="occ_pde">Police Detective</string>
+    <string name="occ_pol">Police Officer</string>
+    <string name="occ_pri">Private Investigator</string>
+    <string name="occ_pro">Professor</string>
+    <string name="occ_sol">Soldier</string>
+    
+    <string name="occ_desc_ant">Art, Bargain, Craft, History, Library Use, Other Language, Spot Hidden, and any one other skill as a personal or era specialty.</string>
+    <string name="occ_desc_art">Art, Craft, Fast Talk, History, Photography, Psychology, Spot Hidden, any other one skill as a personal or era specialty.</string>
+    <string name="occ_desc_ath">Climb, Dodge, Jump, Martial Arts, Ride, Swim, Throw, any other skill as a personal or era specialty.</string>
+    <string name="occ_desc_aut">History, Library Use, Occult, Other Language, Own Language, Persuade, Psychology, and any one other skill as a personal or era specialty.</string>
+    <string name="occ_desc_cle">Accounting, History, Library Use, Listen, Other Language, Persuade, Psychology, and any other skill as a personal or era specialty.</string>
+    <string name="occ_desc_cri">Bargain, Disguise, Fast Talk, Handgun, Locksmith, Sneak, Spot Hidden, and other skill as a personal or era specialty.</string>
+    <string name="occ_desc_dil">Art, Craft, Credit Rating, Other Language, Ride, Shotgun, any two other skills as personal or era specialties.</string>
+    <string name="occ_desc_doc">Biology, Credit Rating, First Aid, Latin, Medicine, Pharmacy, Psychoanalysis, Psychology, any one other skill as a personal or era specialty.</string>
+    <string name="occ_desc_dri">Bargain, Fast Talk, Hide, Listen, Natural History, Psychology, Sneak, and one other skill as a personal or era specialty.</string>
+    <string name="occ_desc_eng">Chemistry, Electrical Repair, Geology, Library Use, Mechanical Repair, Operate Heavy Machine, Physics, any other skill as personal or era specialty.</string>
+    <string name="occ_desc_ent">Art, Credit Rating, Disguise, Dodge, Fast Talk, Listen, Psychology, any one other skill as a personal or era specialty.</string>
+    <string name="occ_desc_far">Craft, Electrical Repair, First Aid, Mechanical Repair, Natural History, Operate Heavy Machine, Track, any other skill as a personal or era specialty.</string>
+    <string name="occ_desc_jou">Fast Talk, History, Library Use, Own Language, Persuade, Photography, Psychology, any one other skill as a personal or era specialty.</string>
+    <string name="occ_desc_law">Bargain, Credit Rating, Fast Talk, Law, Library Use, Persuade, Psychology, any one other skill as a personal or era specialty.</string>
+    <string name="occ_desc_mil">Accounting, Bargain, Credit Rating, Law, Navigate, Persuade, Psychology, any one other skill as a personal or era specialty.</string>
+    <string name="occ_desc_mis">Art, Bargain, Craft, First Aid, Mechanical Repair, Medicine, Natural History, Persuade, any one other skill as a personal or era speciality.</string>
+    <string name="occ_desc_mus">Art, Bargain, Craft, Fast Talk, Listen, Persuade, Psychology, any one other skill as a personal or era specialty.</string>
+    <string name="occ_desc_par">Anthropology, History, Library Use, Occult, Other Language, Photography, Psychology, any one other skill as a personal or era specialty.</string>
+    <string name="occ_desc_pil">Astronomy, Electrical Repair, Mechanical Repair, Navigate, Operate Heavy Machine, Physics, Pilot, any one other skill as a personal or era speciality.</string>
+    <string name="occ_desc_pde">Bargain, Fast Talk, Law, Listen, Persuade, Psychology, Spot Hidden, any one other skill as a personal or era specialty.</string>
+    <string name="occ_desc_pol">Dodge, Fast Talk, First Aid, Grapple, Law, Psychology, and any two of the following as a personal specialty: Bargain, Drive Automobile, Martial Arts, Ride, or Spot Hidden.</string>
+    <string name="occ_desc_pri">Bargain, Fast Talk, Law, Library Use, Locksmith, Photography, Psychology, and any one other skill as a personal or era specialty.</string>
+    <string name="occ_desc_pro">Bargain, Credit Rating, Library Use, Other Language, Persuade, Psychology, and any two of the following as a personal specialty: Anthropology, Archaeology, Astronomy, Biology, Chemistry, Electronics, Geology, History, Law, Medicine, Natural History, or Physics.</string>
+    <string name="occ_desc_sol">Dodge, First Aid, Hide, Listen, Mechanical Repair, Rifle, Sneak, any one other skill as a personal or era specialty.</string>
+	
+</resources>

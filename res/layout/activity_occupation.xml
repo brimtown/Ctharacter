@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context=".OccupationActivity">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical" >
+	
+	<TextView
+	    android:id="@+id/label_ant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occ_ant"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/skills_ant"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/occ_desc_ant"
+	    android:textSize="@dimen/small_text_size"  />
+	
+	<View
+    	android:layout_width="1dp"
+   	 	android:layout_height="fill_parent"
+    	android:background="@android:color/darker_gray"/>
+	
+	<TextView
+	    android:id="@+id/label_art"
+	    android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occ_art"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/skills_art"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/occ_desc_art"
+	    android:textSize="@dimen/small_text_size" />
+	
+	<TextView
+	    android:id="@+id/label_ath"
+	    android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occ_ath"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/skills_ath"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/occ_desc_ath"
+	    android:textSize="@dimen/small_text_size" />
+	
+	<TextView
+	    android:id="@+id/label_aut"
+	    android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occ_aut"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/skills_aut"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/occ_desc_aut"
+	    android:textSize="@dimen/small_text_size" />
+	
+	<TextView
+	    android:id="@+id/label_cle"
+	    android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occ_cle"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/skills_cle"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/occ_desc_cle"
+	    android:textSize="@dimen/small_text_size" />
+	
+	<TextView
+	    android:id="@+id/label_cri"
+	    android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occ_cri"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/skills_cri"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/occ_desc_cri"
+	    android:textSize="@dimen/small_text_size" />
+	
+	<TextView
+	    android:id="@+id/label_dil"
+	    android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occ_dil"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/skills_dil"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/occ_desc_dil"
+	    android:textSize="@dimen/small_text_size" />
+	
+	<TextView
+	    android:id="@+id/label_doc"
+	    android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occ_doc"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/skills_doc"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/occ_desc_doc"
+	    android:textSize="@dimen/small_text_size" />
+	
+	<TextView
+	    android:id="@+id/label_dri"
+	    android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occ_dri"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/skills_dri"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/occ_desc_dri"
+	    android:textSize="@dimen/small_text_size" />
+	
+	<TextView
+	    android:id="@+id/label_eng"
+	    android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occ_eng"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/skills_eng"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/occ_desc_eng"
+	    android:textSize="@dimen/small_text_size" />
+	
+	<TextView
+	    android:id="@+id/label_ent"
+	    android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occ_ent"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/skills_ent"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/occ_desc_ent"
+	    android:textSize="@dimen/small_text_size" />
+	
+	<TextView
+	    android:id="@+id/label_far"
+	    android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occ_far"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/skills_far"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/occ_desc_far"
+	    android:textSize="@dimen/small_text_size" />
+	
+	<TextView
+	    android:id="@+id/label_jou"
+	    android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occ_jou"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/skills_jou"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/occ_desc_jou"
+	    android:textSize="@dimen/small_text_size" />
+	
+	<TextView
+	    android:id="@+id/label_law"
+	    android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occ_law"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/skills_law"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/occ_desc_law"
+	    android:textSize="@dimen/small_text_size" />
+	
+	<TextView
+	    android:id="@+id/label_mil"
+	    android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occ_mil"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/skills_mil"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/occ_desc_mil"
+	    android:textSize="@dimen/small_text_size" />
+	
+	<TextView
+	    android:id="@+id/label_mis"
+	    android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occ_mis"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/skills_mis"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/occ_desc_mis"
+	    android:textSize="@dimen/small_text_size" />
+	
+	<TextView
+	    android:id="@+id/label_mus"
+	    android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occ_mus"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/skills_mus"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/occ_desc_mus"
+	    android:textSize="@dimen/small_text_size" />
+	
+		<TextView
+	    android:id="@+id/label_par"
+	    android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occ_par"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/skills_par"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/occ_desc_par"
+	    android:textSize="@dimen/small_text_size" />
+	
+	<TextView
+	    android:id="@+id/label_pil"
+	    android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occ_pil"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/skills_pil"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/occ_desc_pil"
+	    android:textSize="@dimen/small_text_size" />
+	
+	<TextView
+	    android:id="@+id/label_pde"
+	    android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occ_pde"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/skills_pde"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/occ_desc_pde"
+	    android:textSize="@dimen/small_text_size" />
+	
+	<TextView
+	    android:id="@+id/label_pol"
+	    android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occ_pol"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/skills_pol"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/occ_desc_pol"
+	    android:textSize="@dimen/small_text_size" />
+	
+	<TextView
+	    android:id="@+id/label_pri"
+	    android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occ_pri"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/skills_pri"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/occ_desc_pri"
+	    android:textSize="@dimen/small_text_size" />
+	
+	<TextView
+	    android:id="@+id/label_pro"
+	    android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occ_pro"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/skills_pro"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/occ_desc_pro"
+	    android:textSize="@dimen/small_text_size" />
+	
+	<TextView
+	    android:id="@+id/label_sol"
+	    android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/occ_sol"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/skills_sol"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/occ_desc_sol"
+	    android:textSize="@dimen/small_text_size" />
+	
+	</LinearLayout>
+
+</ScrollView>
